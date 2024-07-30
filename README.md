@@ -1,7 +1,7 @@
 # sstc
-Half-bridge Solid State Tesla Coil
+This project is my designe of a half-bridge Solid State Tesla Coil (SSTC).
 
-A half-bridge solid-state Tesla coil (SSTC) is a type of Tesla coil that uses modern semiconductor devices such as MOSFETs or IGBTs to generate high-frequency alternating current (AC) and high voltages. The term "half-bridge" refers to the specific configuration of the power electronics used in the coil.
+An SSTC is a type of [Tesla coil](https://en.wikipedia.org/wiki/Tesla_coil) that uses modern semiconductor devices such as MOSFETs or IGBTs to generate high-frequency alternating current (AC) and high voltages. The term "half-bridge" refers to the specific configuration of the power electronics used in the coil.
 
 ## How Half-Bridge SSTCs Work
 
@@ -23,4 +23,4 @@ The term "half-bridge" comes from the structure of the circuit:
 - **Full-Bridge vs. Half-Bridge**: In a full-bridge circuit, there are four switches arranged in an H-bridge configuration. This allows for full control over the direction of the current through the load (primary coil). In contrast, a half-bridge circuit uses only two switches and two capacitors. It controls the current direction by alternately switching the two switches, but only half of the H-bridge is implemented.
 - **Simplified Design**: The half-bridge design is simpler and more cost-effective compared to a full-bridge design, making it a popular choice for SSTCs.
 
-In summary, half-bridge solid-state Tesla coils use a specific switching circuit configuration to generate high-frequency AC and high voltages in the secondary coil, enabling the characteristic high-voltage discharges. The name "half-bridge" refers to the specific arrangement of the semiconductor switches in the power electronics section of the coil.
+
