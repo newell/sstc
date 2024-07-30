@@ -3,6 +3,14 @@ This project is my design of a half-bridge Solid State Tesla Coil (SSTC).
 
 An SSTC is a type of [Tesla coil](https://en.wikipedia.org/wiki/Tesla_coil) that uses modern semiconductor devices such as MOSFETs or IGBTs to generate high-frequency alternating current (AC) and high voltages. The term "half-bridge" refers to the specific configuration of the power electronics used in the coil.
 
+![PCB](https://github.com/user-attachments/assets/58d9dd55-f775-408e-bd02-e7d93be3af10)
+
+## Tools Used for SSTC Design
+
+- **KiCad**: For schematic capture and PCB layout.
+- **build123d**: For CAD design.
+- **Prusa MK3S+**: 3D printer for printing the enclosure.
+
 ## How Half-Bridge SSTCs Work
 
 1. **Power Supply**: The primary coil is powered by a DC power supply. This DC voltage is then switched on and off at a high frequency by the half-bridge circuit.
