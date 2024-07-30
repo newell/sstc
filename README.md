@@ -7,9 +7,9 @@ An SSTC is a type of [Tesla coil](https://en.wikipedia.org/wiki/Tesla_coil) that
 
 ## Tools Used for SSTC Design
 
-- **KiCad**: For schematic capture and PCB layout.
-- **build123d**: For CAD design.
-- **Prusa MK3S+**: 3D printer for printing the enclosure.
+- **[KiCad](https://github.com/KiCad)**: For schematic capture and PCB layout.
+- **[build123d](https://github.com/gumyr/build123d)**: For CAD design.
+- **[Prusa MK3S+](https://www.prusa3d.com/)**: 3D printer for printing the enclosure.
 
 ## How Half-Bridge SSTCs Work
 
