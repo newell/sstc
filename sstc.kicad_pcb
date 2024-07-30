@@ -7,6 +7,11 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "Half-Bridge Solid State Tesla Coil (SSTC)")
+		(date "2024-07-30")
+		(company "Newell Jensen")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(31 "B.Cu" signal)
@@ -3927,6 +3932,7 @@
 		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "412b8c2f-869e-4934-be22-7122e97f3e3b")
 		(at 165.598 151.267 180)
@@ -4280,6 +4286,7 @@
 		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "47eedf37-3047-4370-bf16-692bff6b6434")
 		(at 102.987 151.267 180)
@@ -23541,16 +23548,97 @@
 			)
 		)
 	)
-	(gr_rect
-		(start 99.568 30.861)
-		(end 169.027 154.696)
+	(gr_arc
+		(start 102.987 154.686034)
+		(mid 100.574829 153.690061)
+		(end 99.568001 151.2824)
+		(locked yes)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type default)
 		)
-		(fill none)
 		(layer "Edge.Cuts")
-		(uuid "77370703-4b4c-459b-8951-8f513e80fbd5")
+		(uuid "0bc31afa-01c2-4cf4-a518-09aafd39bd66")
+	)
+	(gr_arc
+		(start 99.568 34.29)
+		(mid 100.569402 31.872402)
+		(end 102.987 30.871)
+		(locked yes)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4fa607df-d896-4679-b5cf-af5a91140e6e")
+	)
+	(gr_line
+		(start 99.568001 151.2824)
+		(end 99.568 34.29)
+		(locked yes)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9659190b-8207-4c24-a2f0-6c8e61f8c682")
+	)
+	(gr_arc
+		(start 169.017014 151.267)
+		(mid 168.019141 153.68107)
+		(end 165.608 154.685999)
+		(locked yes)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a0ab09e0-aa8e-44eb-bda4-8b31c2d10133")
+	)
+	(gr_line
+		(start 165.608 30.861)
+		(end 102.987 30.871)
+		(locked yes)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ad8297a0-8212-46f2-a193-6e7165903e88")
+	)
+	(gr_line
+		(start 169.017014 151.267)
+		(end 169.037 34.29)
+		(locked yes)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b33d0731-ade5-4af4-93a1-aab0254a5900")
+	)
+	(gr_line
+		(start 102.987 154.686034)
+		(end 165.608 154.685999)
+		(locked yes)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c9529004-0baa-4cbf-bd32-a87a2ff1a1dc")
+	)
+	(gr_arc
+		(start 165.608 30.861)
+		(mid 168.032669 31.865331)
+		(end 169.037 34.29)
+		(locked yes)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f155e726-0b37-40fd-bddc-dfa0bfd36856")
 	)
 	(gr_text "12 TURNS"
 		(at 154.178 62.865 90)

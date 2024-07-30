@@ -7268,7 +7268,7 @@
 		)
 		(uuid "1162f897-7d70-4dcc-9632-1f10bd450e97")
 	)
-	(text "TODO\n\n1. Calculate the inductance of the primary from https://www.translatorscafe.com/unit-converter/en-US/calculator/series-lc-impedance/\n2. Look into pull down resistor for enable pins on the UCC since they have internal pullups and will always be enabled if not pulled low...??\n3. Mechanical drawings of everything....so many things to do!"
+	(text "TODO\n\nCalculate the inductance of the primary from https://www.translatorscafe.com/unit-converter/en-US/calculator/series-lc-impedance/\n"
 		(exclude_from_sim no)
 		(at 185.42 20.32 0)
 		(effects
