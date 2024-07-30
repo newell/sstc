@@ -1,5 +1,5 @@
 # sstc
-This project is my designe of a half-bridge Solid State Tesla Coil (SSTC).
+This project is my design of a half-bridge Solid State Tesla Coil (SSTC).
 
 An SSTC is a type of [Tesla coil](https://en.wikipedia.org/wiki/Tesla_coil) that uses modern semiconductor devices such as MOSFETs or IGBTs to generate high-frequency alternating current (AC) and high voltages. The term "half-bridge" refers to the specific configuration of the power electronics used in the coil.
 
